@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C2817729266FA4FF00CCDC52 /* 1001.c in Sources */ = {isa = PBXBuildFile; fileRef = C2817728266FA4FF00CCDC52 /* 1001.c */; };
+		C2523CE82672604600BA8F5C /* Hello World.c in Sources */ = {isa = PBXBuildFile; fileRef = C2523CE72672604600BA8F5C /* Hello World.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,6 +23,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		C2356CFA26706C8A00F3DB37 /* 1002.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = 1002.c; sourceTree = "<group>"; };
+		C2523CE72672604600BA8F5C /* Hello World.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "Hello World.c"; sourceTree = "<group>"; };
 		C281771E266FA41400CCDC52 /* Baekjoon_C */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Baekjoon_C; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2817721266FA41400CCDC52 /* 1000.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = 1000.c; sourceTree = "<group>"; };
 		C2817728266FA4FF00CCDC52 /* 1001.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = 1001.c; sourceTree = "<group>"; };
@@ -39,6 +41,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C2523CE62672600100BA8F5C /* 입출력과 사칙연산 */ = {
+			isa = PBXGroup;
+			children = (
+				C2523CE72672604600BA8F5C /* Hello World.c */,
+			);
+			name = "입출력과 사칙연산";
+			path = "입출력과 사칙연산";
+			sourceTree = "<group>";
+		};
 		C2817715266FA41400CCDC52 = {
 			isa = PBXGroup;
 			children = (
@@ -58,8 +69,10 @@
 		C2817720266FA41400CCDC52 /* Baekjoon_C */ = {
 			isa = PBXGroup;
 			children = (
+				C2523CE62672600100BA8F5C /* 입출력과 사칙연산 */,
 				C2817721266FA41400CCDC52 /* 1000.c */,
 				C2817728266FA4FF00CCDC52 /* 1001.c */,
+				C2356CFA26706C8A00F3DB37 /* 1002.c */,
 			);
 			path = Baekjoon_C;
 			sourceTree = "<group>";
@@ -120,7 +133,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C2817729266FA4FF00CCDC52 /* 1001.c in Sources */,
+				C2523CE82672604600BA8F5C /* Hello World.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
