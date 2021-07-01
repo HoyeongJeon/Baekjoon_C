@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C2523CE82672604600BA8F5C /* Hello World.c in Sources */ = {isa = PBXBuildFile; fileRef = C2523CE72672604600BA8F5C /* Hello World.c */; };
+		C28555F4268DDFBF00750E58 /* We love kriii.c in Sources */ = {isa = PBXBuildFile; fileRef = C28555F3268DDFBF00750E58 /* We love kriii.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +28,7 @@
 		C281771E266FA41400CCDC52 /* Baekjoon_C */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Baekjoon_C; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2817721266FA41400CCDC52 /* 1000.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = 1000.c; sourceTree = "<group>"; };
 		C2817728266FA4FF00CCDC52 /* 1001.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = 1001.c; sourceTree = "<group>"; };
+		C28555F3268DDFBF00750E58 /* We love kriii.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "We love kriii.c"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +46,7 @@
 			isa = PBXGroup;
 			children = (
 				C2523CE72672604600BA8F5C /* Hello World.c */,
+				C28555F3268DDFBF00750E58 /* We love kriii.c */,
 			);
 			name = "입출력과 사칙연산";
 			path = "입출력과 사칙연산";
@@ -133,7 +135,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C2523CE82672604600BA8F5C /* Hello World.c in Sources */,
+				C28555F4268DDFBF00750E58 /* We love kriii.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
