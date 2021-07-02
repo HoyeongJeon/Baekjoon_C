@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C20B84ED268EE4590029D93B /* A + B.c in Sources */ = {isa = PBXBuildFile; fileRef = C20B84EC268EE4590029D93B /* A + B.c */; };
+		C20B84F5268EE6CC0029D93B /* calculate.c in Sources */ = {isa = PBXBuildFile; fileRef = C20B84F4268EE6CC0029D93B /* calculate.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,6 +24,10 @@
 
 /* Begin PBXFileReference section */
 		C20B84EC268EE4590029D93B /* A + B.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "A + B.c"; sourceTree = "<group>"; };
+		C20B84EE268EE4F00029D93B /* A - B.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "A - B.c"; sourceTree = "<group>"; };
+		C20B84F0268EE5580029D93B /* A X B.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "A X B.c"; sourceTree = "<group>"; };
+		C20B84F2268EE5D80029D93B /*  A % B.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = " A % B.c"; sourceTree = "<group>"; };
+		C20B84F4268EE6CC0029D93B /* calculate.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = calculate.c; sourceTree = "<group>"; };
 		C2356CFA26706C8A00F3DB37 /* 1002.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = 1002.c; sourceTree = "<group>"; };
 		C2523CE72672604600BA8F5C /* Hello World.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "Hello World.c"; sourceTree = "<group>"; };
 		C281771E266FA41400CCDC52 /* Baekjoon_C */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Baekjoon_C; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -53,6 +57,10 @@
 				C28555F5268DE05000750E58 /* cat.c */,
 				C28555F7268DE27E00750E58 /* dog.c */,
 				C20B84EC268EE4590029D93B /* A + B.c */,
+				C20B84EE268EE4F00029D93B /* A - B.c */,
+				C20B84F0268EE5580029D93B /* A X B.c */,
+				C20B84F2268EE5D80029D93B /*  A % B.c */,
+				C20B84F4268EE6CC0029D93B /* calculate.c */,
 			);
 			name = "입출력과 사칙연산";
 			path = "입출력과 사칙연산";
@@ -141,7 +149,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C20B84ED268EE4590029D93B /* A + B.c in Sources */,
+				C20B84F5268EE6CC0029D93B /* calculate.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
